@@ -1,0 +1,52 @@
+.header {
+  width: 60%;
+  height: 80px;
+  background-color: rgb(79, 87, 103);
+  padding: 0 10px;
+  border-radius: 15px;
+
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  cursor: pointer;
+}
+
+.logo_img {
+  height: auto;
+  width: 75px;
+}
+
+.logo_title {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.socials {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_link {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+
+  display: flex;
+  align-items: center;
+}
+
+.social_link:hover {
+  transition: 0.4s;
+  color: rgb(149, 172, 214);
+}

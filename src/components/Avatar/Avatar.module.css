@@ -1,0 +1,23 @@
+.avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2px;
+
+  cursor: default;
+}
+
+.avatar_image {
+  width: 80px;
+  height: 80px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+.avatar_name {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
